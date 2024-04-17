@@ -6,35 +6,35 @@
     height: 100vh;
     flex-direction: column;
   }
-  main {
+  .main {
     display: flex;
     flex: 1;
   }
 
-  header, footer {
+  .header, footer {
     background: rosybrown;
     height: 10vh;
   }
 
-  article {
+  .article {
     flex: 1;
     order: 1;
     background: pink;
     order: 3;
   }
-nav {
+.nav {
     flex: 0 0 20vw;
     background: pink;
     order: 3;
   }
  
-  aside {
+  .aside {
     background: violet;
     order: 2;
     flex: 0 0 20vw;
   }
  
-  header, footer, article, nav, aside {
+  .header, footer, article, nav, aside {
     padding: 2em;
   }
 img {

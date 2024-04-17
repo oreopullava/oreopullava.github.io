@@ -1,0 +1,44 @@
+.container {
+    box-sizing: border-box; 
+  }
+  body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+  }
+  main {
+    display: flex;
+    flex: 1;
+  }
+
+  header, footer {
+    background: rosybrown;
+    height: 10vh;
+  }
+
+  article {
+    flex: 1;
+    order: 1;
+    background: pink;
+    order: 3;
+  }
+nav {
+    flex: 0 0 20vw;
+    background: pink;
+    order: 3;
+  }
+ 
+  aside {
+    background: violet;
+    order: 2;
+    flex: 0 0 20vw;
+  }
+ 
+  header, footer, article, nav, aside {
+    padding: 2em;
+  }
+img {
+    width: 250px;
+    height: 170px;
+
+}
